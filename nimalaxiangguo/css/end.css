@@ -1,0 +1,208 @@
+.end {
+    height: 390px;
+    background-color: #191919;
+}
+
+.superiority>.container {
+    position: relative;
+}
+
+.end-top-container {
+    position: relative;
+    height: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.end-top-container::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.end-top-container a:hover {
+    color: #ff6700;
+}
+
+.end-top-container span:hover {
+    color: #ff6700;
+}
+
+.end-top-container span {
+    font-size: 16px;
+    color: #aaaaaa;
+    font-family: "微软雅黑";
+    margin-right: 2.5em;
+}
+
+.end-middle-container {
+    position: relative;
+    height: 230px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.end-middle-left {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 45%;
+    top: 20%;
+}
+
+
+.end-middle-middle {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 35%;
+    top: 20%;
+}
+
+.end-middle-middle-search-container {
+    position: relative;
+    display: block;
+    height: 15%;
+    width: 80%;
+    top: 2%;
+}
+
+.end-middle-middle-search {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.end-middle-middle-search .search-form {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.end-middle-middle-search .search-form .search-text {
+    top: 0;
+    padding-left: 2%;
+    right: 15%;
+    width: 85%;
+    height: 100%;
+    background-color: #303030;
+    color: #fff;
+    line-height: 100%;
+    font-size: 100%;
+    outline: 0;
+    border: 0;
+}
+
+.end-middle-middle-search .search-form .search-button {
+    float: right;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    color: #fff;
+    border: 1px solid #b32318;
+    font-size: auto;
+    background: #b32318;
+    outline: 0;
+}
+
+.end-middle-middle-search .search-form .search-button:hover {
+    color: #ff6700;
+}
+
+.end-middle-right {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(100% - 80%);
+    top: 20%;
+}
+
+.end-middle-right-left {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.end-middle-right-right {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.end-middle-right-img1 {
+    width: 80%;
+    padding-top: 80%;
+    margin: auto;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/end/1.png);
+    z-index: 0;
+}
+
+.end-middle-right-img2 {
+    width: 80%;
+    padding-top: 80%;
+    margin: auto;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/end/2.png);
+    z-index: 0;
+}
+
+.end-middle-right-text {
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.end-bottom-container {
+    position: relative;
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #000;
+}
+
+.end-bottom-left {
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.end-bottom-right {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+
+.end-bottom-left::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.end-bottom-right::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.end-bottom-container span {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-family: "微软雅黑";
+}

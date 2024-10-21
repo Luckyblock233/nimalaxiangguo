@@ -1,0 +1,8 @@
+.welcome {
+    height: 660px;
+    object-fit: fill;
+    display: block;
+    background-image: url(../images/images/welcome/大图.png);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}

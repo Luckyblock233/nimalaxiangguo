@@ -1,0 +1,217 @@
+.Franchisee {
+    background-color: #efebdf;
+    height: 820px;
+}
+
+.Franchisee>.container {
+    position: relative;
+}
+
+
+.Franchisee-page1 {
+    position: relative;
+    height: 800px;
+    display: block;
+}
+
+.Franchisee-page1-up {
+    margin-top: 20px;
+    height: 300px;
+    display: block;
+}
+
+.Franchisee-page1-up-title {
+    float: left;
+    position: relative;
+    margin-top: -65px;
+    margin-left: -30px;
+    height: 100px;
+    width: 600px;
+    display: block;
+    background-color: #efebdf;
+    z-index: 0;
+}
+.Franchisee-page1-up-title span {
+    margin-left: 100px;
+    font-family: Monotype Corsiva;
+    font-size: 85px;
+    color: #b32318;
+}
+
+.Franchisee-page1-up-container {
+    position: relative;
+    margin: auto;
+    top: 20%;
+    height: 200px;
+    width: 1200px;
+    border: 2px solid red;
+    z-index: 0;
+}
+
+.Franchisee-page1-up-text {
+    position: relative;
+    margin-top: 50px;
+    /* margin: auto; */
+    height: 100px;
+    width: 1200px;
+    text-align: center;
+}
+
+
+
+
+
+
+.Franchisee-page1-down {
+    position: relative;
+    height: 550px;
+    display: block;
+}
+
+.Franchisee-page1-left {
+    position: relative;
+    float: left;
+    width: 35%;
+    height: auto;
+}
+
+.Franchisee-page1-middle {
+    position: relative;
+    float: left;
+    width:calc(100% - 70%);
+    height: auto;
+}
+
+.Franchisee-page1-right {
+    position: relative;
+    float: left;
+    width: 35%;
+    height: auto;
+}
+
+.Franchisee-leftarrow {
+    position: relative;
+    float: left;
+    margin-top: 190px;
+    margin-left: 140px;
+    height: 60px;
+    width: 50px;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/加盟商/左箭头.png);
+}
+
+.Franchisee-page1-left-container {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+.Franchisee-page1-left-img {
+    position: relative;
+    margin-left: 265px;
+    margin-top: -40px;
+
+    width: 320px;
+    height: 190px;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/加盟商/文字背景.png);
+    z-index: 0;
+}
+.Franchisee-page1-left-person {
+    position: relative;
+    width: 350px;
+    height: 255px;
+    margin-left: 250px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+    background-image: url(../images/images/加盟商/1.png);
+}
+
+.Franchisee-page1-middle-container {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.Franchisee-page1-middle-img {
+    float: bottom;
+    margin: auto;
+    margin-top: -40px;
+
+    position: relative;
+    width: 320px;
+    height: 190px;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/加盟商/文字背景.png);
+    z-index: 0;
+}
+.Franchisee-page1-middle-person {
+    margin: auto;
+    width: 350px;
+    height: 255px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+    background-image: url(../images/images/加盟商/2.png);
+}
+
+.Franchisee-page1-right-container {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.Franchisee-page1-right-img {
+    float: bottom;
+    margin-left: 15px;
+    margin-top: -40px;
+
+    position: absolute;
+    width: 320px;
+    height: 190px;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/加盟商/文字背景.png);
+    z-index: 0;
+}
+.Franchisee-page1-right-person {
+    width: 350px;
+    height: 255px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+    background-image: url(../images/images/加盟商/3.png);
+}
+
+.Franchisee-rightarrow {
+    position: relative;
+    float: right;
+    margin-top: 190px;
+    margin-right: 140px;
+    height: 60px;
+    width: 50px;
+    object-fit: fill;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/images/加盟商/右箭头.png);
+}
+
+.Franchisee-text {
+    position: relative;
+    margin: auto;
+    top: 20%;
+    width: 70%;          
+    height: 80%;
+    text-align: center;
+}
